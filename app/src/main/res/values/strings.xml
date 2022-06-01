@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ClearScore Homework</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_fragment_label">Your Credit Score</string>
+
+    <string name="fetch_credit_score">Get Your Credit Score</string>
+    <string name="your_credit_score_is">Your credit score is</string>
+    <string name="out_of_700">out of %1$d</string>
+    <string name="your_credit_score_details">Your Credit Score Details:</string>
+    <string name="your_credit_score_string">Your Credit Score: %1$d out of %2$d</string>
+    <string name="score_band_string">Score Band: %1$d</string>
+    <string name="equifax_score_band_string">Equifax Score Band: %1$d — %2$s</string>
+    <string name="reference_string">Reference: %1$s</string>
+
+</resources>

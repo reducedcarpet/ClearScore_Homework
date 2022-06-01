@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/info_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_credit_score_details"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeTextType="uniform" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/score_text"
+        style="@style/small_info_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        android:text="@string/your_credit_score_string"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeTextType="uniform" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/score_band_text"
+        style="@style/small_info_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        android:text="@string/score_band_string"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeTextType="uniform" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/equifax_score_band_text"
+        style="@style/small_info_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        android:text="@string/equifax_score_band_string"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeTextType="uniform" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/ref_text"
+        style="@style/small_info_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        android:text="@string/reference_string"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeTextType="uniform" />
+
+</LinearLayout>

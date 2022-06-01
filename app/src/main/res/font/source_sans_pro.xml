@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Light -->
+    <font
+        app:font="@font/source_sans_pro_extralight"
+        app:fontStyle="normal"
+        app:fontWeight="200" />
+
+    <!-- Regular -->
+    <font
+        app:font="@font/source_sans_pro_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <!-- Bold -->
+    <font
+        app:font="@font/source_sans_pro_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+
+    <!-- Black -->
+    <font
+        app:font="@font/source_sans_pro_black"
+        app:fontStyle="normal"
+        app:fontWeight="900" />
+
+</font-family>
